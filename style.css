@@ -19,6 +19,14 @@ body{
 	z-index: -1;
 }
 
+a{
+	text-decoration: none;
+	color: hsla(191, 100%, 50%, 0.667);
+}
+a:hover{
+
+}
+
 .about-box{
 	background: hsla(360, 49%, 74%, 0.21) no-repeat;
 	position: absolute;
@@ -71,7 +79,7 @@ body{
 	float: left;
 }
 
-.icon-holder:hover{
+.icon-holder:hover, a:hover{
 	color: hsla(191, 100%, 50%, 1);
 }
 
