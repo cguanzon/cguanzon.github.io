@@ -1,12 +1,13 @@
 html, body{
 	width: 100%;
 	height:100%;
-	text-shadow: -0.17em -0.17em rgba(0,0,0,.5);}
-
+	text-shadow: -0.17em -0.17em rgba(0,0,0,.5);
+}
 
 html{
 	font-size:16px;
 }
+
 body{
 	font-size: 0.625em;
 }
@@ -24,12 +25,13 @@ a{
 	text-decoration: none;
 	color: hsla(38, 86%, 67%, 1);
 }
+
 .about-box{
 	background: hsla(230, 86%, 4%, 0.66) no-repeat;
 	position: absolute;
 	top: 5em;
 	left:10em;
-	height: 90%;
+	height: auto;
 	width: 40em;
 	padding:4em 6em;
 	border-radius: 3%;
@@ -59,10 +61,10 @@ a{
 }
 
 .button-bar{
-	margin-top: 7em;
 	height: 5em;
-	width: 90%;
+	width: 70%;
 	box-sizing: border-box;
+	margin: 5em 0;
 }
 
 .icon-holder{
@@ -70,11 +72,11 @@ a{
 	font-size: 2em;
 	font-style: normal;
 	text-decoration: none;
-	margin-right: 0.2em;
 	height: 2.2em;
 	width: 2em;
-	float: left;
+	display: inline-block;
 }
+
 
 .icon-holder:hover, a:hover{
 	color: hsla(191, 100%, 50%, 1);
@@ -87,7 +89,7 @@ a{
 @media screen and (min-width:0px) and (max-width:600px){
 	.splash{
 		background-size: cover;
-		height: 40%;
+		height: 30%;
 		width: 100%;
 		z-index: -1;
 	}
@@ -95,10 +97,9 @@ a{
 	.about-box{
 	top:0;
 	left:0;
-	background-color: black;
+	background-color: #3a3a3a;
 	position: relative;
 	width: inherit;
-	height:auto;
 	padding:4em 6em;
 	box-sizing: border-box;
 	z-index: 0;
