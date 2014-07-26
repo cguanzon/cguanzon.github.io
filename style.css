@@ -2,7 +2,6 @@ html, body{
 	width: 100%;
 	height:100%;
 	text-shadow: -0.17em -0.17em rgba(0,0,0,.5);
-	background-color: hsla(219, 24%, 13%, 1);
 }
 
 html{
@@ -11,10 +10,16 @@ html{
 
 body{
 	font-size: 0.625em;
+}
+
+.splash{
 	background: url("./images/logo-huge.jpg") no-repeat;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
+	top: 0;
+	height: 100%;
+	width: 100%;
 	background-size: cover;
+	position: fixed;
+	z-index:-999;
 }
 
 a{
@@ -26,8 +31,8 @@ a{
 .about-box{
 	background: hsla(230, 86%, 4%, 0.66) no-repeat;
 	position: absolute;
-	top: 5em;
-	left:10em;
+	margin: 5% 0;
+	left:8%;
 	height: auto;
 	width: 40%;
 	padding:4em 6em;
@@ -77,16 +82,11 @@ a:hover{
 	color: hsla(191, 100%, 50%, 1);
 }
 
-@media screen and (min-width:0px) and (max-width:873px){
+@media screen and (min-width:0px) and (max-width:730px){
 	.about-box{
-	top:10%;
-	left:0;
-	position: relative;
-	width: inherit;
-	padding:auto 6em;
-	box-sizing: border-box;
-	z-index: 0;
-	border-radius: 0;
+		left: auto;
+		width: inherit;
+		margin: 5% 0;
 	}
 }
 
