@@ -10,14 +10,10 @@ html{
 
 body{
 	font-size: 0.625em;
-}
-
-.splash{
 	background: url("./images/logo-huge.jpg") no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
 	background-size: cover;
-	height: 100%;
-	width: 100%;
-	z-index: -1;
 }
 
 a{
@@ -32,7 +28,7 @@ a{
 	top: 5em;
 	left:10em;
 	height: auto;
-	width: 75%;
+	width: 40%;
 	padding:4em 6em;
 	border-radius: 3%;
 	box-sizing: border-box;
@@ -80,21 +76,13 @@ a:hover{
 	color: hsla(191, 100%, 50%, 1);
 }
 
-@media screen and (min-width:0px) and (max-width:600px){
-	.splash{
-		background-size: cover;
-		height: 40%;
-		width: 100%;
-		z-index: -1;
-	}
-
+@media screen and (min-width:0px) and (max-width:873px){
 	.about-box{
-	top:0;
+	top:10%;
 	left:0;
-	background-color: #3a3a3a;
 	position: relative;
 	width: inherit;
-	padding:4em 6em;
+	padding:auto 6em;
 	box-sizing: border-box;
 	z-index: 0;
 	border-radius: 0;
