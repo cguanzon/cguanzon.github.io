@@ -16,6 +16,7 @@ body{
 	background: url("./images/logo-huge.jpg") no-repeat;
 	background-size: cover;
 	top: 0;
+	left: 0;
 	min-height: 100%;
 	min-width: 100%;
 	position: fixed;
@@ -35,7 +36,7 @@ a{
 	left:8%;
 	height: auto;
 	width: 40%;
-	padding:4em 6em;
+	padding: 5%;
 	border-radius: 3%;
 	box-sizing: border-box;
 	z-index: 1;
@@ -58,6 +59,7 @@ a{
 }
 
 .about-box .summary > p{
+	clear: both;
 	font-size: 1.6em;
 	text-align: left;
 }
@@ -71,11 +73,10 @@ a{
 .button-bar a{
 	float: left;
 	display: inline;
-	font-size: 2em;
+	font-size: 2.7em;
 	font-style: normal;
 	text-decoration: none;
 	margin-right: 1em;
-	line-height: 3em;
 }
 
 a:hover{
@@ -84,9 +85,8 @@ a:hover{
 
 @media screen and (min-width:0px) and (max-width:730px){
 	.about-box{
-		left: auto;
-		width: inherit;
-		margin: 5% 0;
+		width: 80%;
+		margin: 3% auto;
 	}
 }
 
